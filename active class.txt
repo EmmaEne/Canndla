@@ -1,0 +1,7 @@
+if $('sidebar nav div').click {
+	$('sidebar nav div').attr('class', 'active');
+
+
+css 
+
+add a background for active

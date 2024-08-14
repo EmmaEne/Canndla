@@ -1,0 +1,502 @@
+@font-face {
+  font-family: 'Roboto-meduim';
+  src: url('fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-black';
+  src: url('fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url('fonts/Roboto-BoldItalic.ttf');
+}
+
+body {
+  font-family: "Roboto-meduim";
+}
+
+.navbar {
+  background-color: #b3d6f9;
+  width: 100%;
+  z-index: 1;
+  padding: 0.5% 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 0.4px solid rgb(158, 153, 186);
+}
+
+.navbar-brand {
+  color: rgb(27, 3, 145);
+  font-family: 'Roboto-black';
+}
+
+ul {
+  margin: auto;
+  cursor: pointer;
+}
+
+.nav-link{
+  color: rgb(35, 35, 35);
+  margin-left: 15px;
+}
+
+.mybtn{
+  margin-left: 10px;
+  background-color: rgb(27, 3, 145);
+  color: white;
+}
+
+.mybtn:hover {
+  background-color: rgb(7, 95, 184);
+  color: white;
+}
+
+.offcanvas-bars {
+  display: none;
+}
+
+.hero-section {
+  margin: auto;
+  padding: 5% 1%;
+  background-color: rgb(237, 245, 252);
+}
+
+.intro {
+  padding-top: 10%;
+  padding-left: 3%;
+  padding-bottom: 10%;
+}
+
+#intro-text {
+  padding: 0 7% 0 0;
+}
+
+#sub-text {
+  padding: 0 20% 0 0;
+}
+
+#intro-text {
+  font-family: 'Roboto-black';
+  font-size: 60px;
+}
+
+.Appointment {
+  background-color: rgb(5, 128, 205);
+  color: white;
+  margin-top: 5px;
+}
+
+.frame-one {
+  text-transform: uppercase;
+  width: 46%;
+  text-align: center;
+  border-radius: 3px;
+  color: rgb(2, 41, 81);
+  border: 1.5px solid;
+}
+
+.image, .frame-two, .frame-three, .features-row, .myfeatures {
+  display: flex;
+}
+
+.image {
+  padding-top: 5%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frame-two, .frame-three {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.features-row, .frame-five, .fields-btn, .blank-card, .mydoctors, .frame-two, .frame-three {
+  justify-content: center;
+} 
+
+.frame-two {
+  align-items: center;
+  border: 1px solid  rgb(7, 95, 184);
+  width: 100%;
+  height: 80%;
+}
+
+.frame-three {
+  width: 99%;
+  height: 98%;
+  background-image: url('images/fancy\ background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+
+#hero-img {
+  width: 100%;
+  height: 95%;
+  position: relative;
+  top: 10px;
+}
+
+.features {
+  background-color:  rgb(179, 214, 249);
+  padding: 10% 5%;
+}
+
+h3,h2 {
+  text-align: center;
+}
+
+about h2 {
+  font-family: 'Roboto-black';
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Roboto-black';
+}
+
+.frame-four {
+  border: 2px solid rgb(200, 225, 255);
+  padding-top: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.features-row {
+  padding: 10px 0 10px;
+}
+
+.myfeatures {
+  background-color: white;
+  width: 38%;
+  height: 200px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 30px 4%;
+}
+
+.svg {
+  width: 40px;
+  height: 40px;
+}
+
+.circle, .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.circle {
+  box-shadow: 0px 2px 3px 2px rgb(27, 3, 145);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.col-lg-9 {
+  padding-left: 25px;
+}
+
+.myfeatures button {
+  margin: 0;
+}
+
+.about {
+  padding: 10% 5%;
+  background-color: rgb(237, 245, 252);
+}
+
+.abt {
+  padding: 0% 9.6%;
+}
+
+.abt h3 {
+  margin-bottom: 53px;
+}
+
+.lists, .frame-five, .fields-btn, .blank-card, .mydoctors {
+  display: flex;
+}
+
+.lists {
+  margin-bottom: 25px;
+}
+
+.frame-five {
+  border-radius: 20px;
+}
+
+.frame-five img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#title {
+  margin-left: 15px;
+  color: rgb(27, 3, 145);
+}
+
+.square {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.specialty {
+  background-color:  rgb(179, 214, 249);
+  padding: 7% 3%;
+  text-align: center;
+}
+
+#long-text {
+  padding: 0 29%;
+  margin-bottom: 40px;
+}
+
+.fields-btn {
+  padding-bottom: 6%;
+}
+
+.fields {
+  width: 13%;
+  margin-left: 22px;
+  color: white;
+  background-color: rgb(7, 95, 184);
+}
+
+.blank {
+  background-color: rgb(237, 245, 252);
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.blank-card {
+  gap: 30px;
+  position: relative;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.blank .card {
+  width: 18%;
+}
+
+.offcanvas-header, .offcanvas-body {
+  background-color:  rgb(237, 245, 252);
+}
+
+.offcanvas-header {
+  color:  rgb(7, 95, 184);
+}
+
+.sideNav {
+  list-style: none;
+  font-size: 24px;
+  padding-left: 0;
+}
+
+.sideNav li {
+  padding-bottom: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  padding: 10px 13px;
+}
+
+.sideNav li a {
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+}
+
+.sideNav li:hover {
+  background-color: rgb(179, 214, 249);
+}
+
+.mydoctors {
+  margin: auto;
+  margin-top: 55px;
+  gap: 10px;
+}
+
+.card-img-top{
+  background-color: rgb(27, 3, 145);
+  height: 79%;
+}
+
+.mydoctors .card {
+  padding: 0;
+  text-align: left;
+  width: 270px;
+  cursor: pointer;
+}
+
+.mydoctors .card-body p {
+  font-size: 13px;
+}
+
+.mydoctors .card-body {
+  background-color:  rgb(213, 233, 250);
+  height: 10px;
+}
+
+.blank h2 {
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(27, 3, 145);
+  color: white;
+  padding: 5% 3%;
+  text-align: center;
+}
+
+.input-group button {
+  color: white;
+  background-color: rgb(5, 128, 205);
+}
+
+@media (max-width: 993px) {
+  .navbar-nav, form {
+    display: none;
+  }
+  .fa-bars {
+    font-size: 30px;
+  }
+  .offcanvas-bars {
+    display: block;
+    position: relative;
+    left: 95%;
+  }
+  .hero-section {
+    margin: auto;
+    padding: 160px 3%;
+  }
+  .frame-one {
+    font-size: 22px;
+    margin: auto;
+  }
+  p, button {
+    font-size: 20px;
+  }
+  .intro {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #sub-text, #intro-text {
+    padding: 10px 100px;
+  }
+  .frame-two {
+    height: 100%;
+  }
+  .features {
+    padding: 100px 30px;
+  }
+  .frame-four {
+    padding: 10px 15px;
+  }
+  .myfeatures {
+    width: 45%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .circle {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .svg {
+    width: 65px;
+    height: 65px;
+  }
+  .about {
+    margin: auto;
+  }
+
+  #title {
+    margin-top: 100px;
+  }
+
+  .about h3, #title {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-us {
+    padding: 50px 50px;
+  }
+
+  /* .lists {
+    
+  } */
+  #long-text {
+    padding: 0 10%;
+  }
+  .fields {
+    width: 30%;
+    margin-bottom: 15px;
+  }
+  .blank .card {
+    width: 35%;
+  }
+  .blank-card {
+    z-index: 0;
+  }
+  footer form {
+    display: block;
+  }
+}
+
+@media (max-width: 590px) {
+  .hero-section {
+    padding-top: 200px;
+  }
+  .intro, #sub-text, #intro-text {
+    padding: 0;
+  }
+  .offcanvas-bars {
+    position: relative;
+    bottom: 30px;
+    left: 90%;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+  }
+
+  .frame-one {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  #hero-img {
+    width: 350px;
+    height: 90%;
+  }
+  .myfeatures {
+    width: 98%;
+    margin-bottom: 15px;
+  }
+  .about h3 {
+    margin-bottom: 50px;
+  }
+  .about-us {
+    padding: 0;
+  }
+  .blank .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 420px) {
+  #hero-img {
+    width: 250px;
+    height: 90%;
+  }
+}
