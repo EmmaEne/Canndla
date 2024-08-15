@@ -329,7 +329,7 @@ h3 {
 .mydoctors .card {
   padding: 0;
   text-align: left;
-  width: 270px;
+  width: 260px; 
   cursor: pointer;
 }
 
@@ -339,7 +339,7 @@ h3 {
 
 .mydoctors .card-body {
   background-color:  rgb(213, 233, 250);
-  height: 10px;
+  /* height: 10px; */
 }
 
 .blank h2 {
@@ -429,12 +429,18 @@ footer {
   }
 
   .about-us {
-    padding: 50px 50px;
+    padding: 50px 40px;
   }
 
-  /* .lists {
-    
-  } */
+  .mydoctors .card {
+    /* width: 69% !important; */
+  }
+
+  .mydoctors .card-body {
+    /* height: 2%; */
+    /* border: solid; */
+  }
+
   #long-text {
     padding: 0 10%;
   }
